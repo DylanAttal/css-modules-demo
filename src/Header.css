@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2rem;
+  background-color: orange;
+}
+
+.title,
+.author {
+  color: blue;
+}
+
+.author {
+  font-family: cursive;
+}
