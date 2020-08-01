@@ -1,3 +1,18 @@
 .book {
   border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.title,
+.author {
+  color: black;
+}
+
+img {
+  height: 500px;
+  width: 350px;
 }
